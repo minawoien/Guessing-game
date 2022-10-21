@@ -1,0 +1,114 @@
+/* CSS Login and registerform  */
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.logo {
+    font-size: 50px;
+    color: black;
+}
+
+/* Uniqe css for registerform  */
+
+
+#floatingInput {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#floatingPassword {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#floatingRepeatPassword {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Menubar */
+.menubarLogo {
+    font-size: 40px;
+    color: white;
+    padding-right: 10px;
+}
+
+.menubarIcon {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+
+/* Leaderboard */
+.leaderboard-form {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.player-window {
+    width: 800px;
+    /*height: 800px;
+    overflow: hidden;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    bottom: 20%;
+    max-width: 100%;
+}
+
+img.sub {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.player {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    max-height: 715px;
+}
+
+.imgopacity {
+    opacity: 0.5;
+}
